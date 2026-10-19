@@ -10,7 +10,10 @@ Parallels (macOS), UTM (macOS), WSL (Windows) и libvirt/KVM (Linux),
     python3 scaner.py                     # обычный отчёт
     python3 scaner.py --json              # отчёт в формате JSON
     python3 scaner.py --out report.json   # сохранить JSON-отчёт в файл
+    python3 scaner.py --fast              # быстрый режим: без деталей каждой ВМ
     python3 scaner.py --timeout 5         # короче таймаут внешних команд
+
+Тесты: python3 -m unittest -v
 """
 
 from __future__ import annotations
