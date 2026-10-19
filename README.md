@@ -1,5 +1,8 @@
 # vm-scanner
 
+[![Тесты](https://github.com/Antonmentor77/vm-scanner/actions/workflows/tests.yml/badge.svg)](https://github.com/Antonmentor77/vm-scanner/actions/workflows/tests.yml)
+[![Лицензия: MIT](https://img.shields.io/badge/лицензия-MIT-blue.svg)](LICENSE)
+
 Сканер виртуальных машин и Linux-систем: один скрипт на Python, без обязательных
 зависимостей. Работает на **Windows**, **macOS** и **Linux**.
 
@@ -121,3 +124,7 @@ python3 -m unittest -v
 
 * `scaner.py` — сам сканер, один файл, без зависимостей;
 * `test_scaner.py` — тесты на `unittest`.
+
+## Лицензия
+
+Проект распространяется под лицензией MIT — см. [LICENSE](LICENSE).
